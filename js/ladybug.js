@@ -94,7 +94,7 @@ text1 = document.getElementById("text1")
 text2 = document.getElementById("text2")
 
 function leave(){
-    window.location.replace("5392.html")
+    window.location.replace("5392")
 }
 
 function jumpscare(){

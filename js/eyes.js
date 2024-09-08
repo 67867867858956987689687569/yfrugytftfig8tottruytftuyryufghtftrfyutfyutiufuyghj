@@ -43,7 +43,7 @@ eyes.forEach(eye =>{
 })
 
 function leave(){
-    window.location.href = "ladybug.html"
+    window.location.href = "ladybug"
 }
 
 function check(){
