@@ -3,6 +3,7 @@ chest = document.getElementById("chest")
 function huh(){
     chest.src="media/images/treasurechest2.png"
     chest.style.cursor = "url(media/images/godscursor.png), none"
+    new Audio("media/audio/chest.mp3").play()
     setTimeout(key, 2000)
     setTimeout(function(){chest.remove()}, 1500)
 }
