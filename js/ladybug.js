@@ -94,7 +94,7 @@ text1 = document.getElementById("text1")
 text2 = document.getElementById("text2")
 
 function leave(){
-    window.location.replace("5392")
+    window.location.href = "5392"
 }
 
 function jumpscare(){
@@ -125,11 +125,11 @@ function blinkoff(){
     text1.style.color = "black"
     text2.style.color = "black"
     setInterval(blinkon, 30)
-  }
+}
   
-  function blinkon(){
+function blinkon(){
     document.querySelector("html").style.backgroundColor = "black"
     text1.style.color = "white"
     text2.style.color = "white"
     setInterval(blinkoff, 30)
-  }
+}

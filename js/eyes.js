@@ -51,7 +51,6 @@ function check(){
         amount = -1
         setTimeout(leave, 1000)
     }
-    console.log(amount)
 }
 
 function start(){
