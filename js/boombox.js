@@ -13,7 +13,7 @@ function play(){
     }
 }
 
-yt = new Audio("media/audio/yt.wav")
+he = new Audio("media/audio/he.wav")
 price = new Audio("media/audio/price.wav")
 
 function playsong(){
@@ -21,7 +21,7 @@ function playsong(){
         price.play()
     }
     if (song == 2){
-        yt.play()
+        he.play()
     }
 }
 
