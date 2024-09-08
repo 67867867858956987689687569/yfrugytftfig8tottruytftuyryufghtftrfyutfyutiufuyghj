@@ -1,4 +1,12 @@
 chest = document.getElementById("chest")
+music = new Audio("media/audio/sunshine.mp3");
+music.addEventListener('timeupdate', function(){
+  var buffer = .44
+  if(this.currentTime > this.duration - buffer){
+      this.currentTime = 0
+      this.play()
+  }
+});
 
 function huh(){
     chest.src="media/images/treasurechest2.png"
@@ -9,6 +17,7 @@ function huh(){
 }
 
 function key(){
+    music.play()
     document.querySelector("html").style.backgroundImage = "url(media/images/sky.jpg)"
 
     glow = document.createElement("img")
