@@ -1,5 +1,6 @@
 function opennote(){
     document.getElementById("note").remove()
+    new Audio("media/audio/noteflip.mp3").play()
 
     bgdark = document.createElement("div")
     bgdark.id = "bgdark"

@@ -1,3 +1,5 @@
+firefox = navigator.userAgent.toLowerCase().includes('firefox')
+
 guts = document.getElementById("guts")
 ladybug = document.getElementById("ladybug")
 heartdiv = document.getElementById("heartdiv")
@@ -98,7 +100,9 @@ function leave(){
 }
 
 function jumpscare(){
-    document.documentElement.requestFullscreen()
+    if (!firefox){
+        document.documentElement.requestFullscreen()
+    }
     trash.remove()
     document.querySelector("html").style.cursor = "none"
     document.querySelector("html").style.backgroundImage = "none"
