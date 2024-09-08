@@ -18,7 +18,7 @@ body{
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-585px, 35px);
+  transform: translate(-565px, 35px);
   width: 525px;
   height: 375px;
   background-color: white;
@@ -34,7 +34,6 @@ body{
   transform: translate(40px, 35px);
   width: 525px;
   height: 375px;
-  
 }
 
 .pieceholder {
