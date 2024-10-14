@@ -33,7 +33,7 @@ tv2.addEventListener('timeupdate', function(){
 function tvclick(){
     tv.src = "media/images/tv.png"
     tv.style.cursor = "url(media/images/godscursor.png), none"
-    freq.style.display = "block"
+    freq.style.display = "inline"
     staticsound.play()
     deepdrone.play()
     deepdrone.volume = 0

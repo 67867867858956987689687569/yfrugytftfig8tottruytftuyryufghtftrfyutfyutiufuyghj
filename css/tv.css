@@ -13,7 +13,6 @@ body{
 
 #table {
     position:absolute;
-    display: block;
     left:50%;
     top:50%;
     transform: translate(-50%, -10%);
@@ -22,7 +21,6 @@ body{
 
 #tv {
     position:absolute;
-    display: block;
     left:50%;
     top:50%;
     transform: translate(-50%, -100%);
@@ -32,7 +30,6 @@ body{
 
 #static {
     position:absolute;
-    display: block;
     left:50%;
     top:50%;
     transform: translate(-65%, -120%);
@@ -41,7 +38,6 @@ body{
 
 #screen {
     position:absolute;
-    display: block;
     left:50%;
     top:50%;
     transform: translate(-65%, -120%);

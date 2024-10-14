@@ -12,16 +12,18 @@ body{
 }
 
 #heart {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position:absolute;
+    left:50%;
+    top:300px;
+    transform: translate(-50%, -50%);
     width: 400px;
 }
 
 #code {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position:absolute;
+    left:50%;
+    top:650px;
+    transform: translate(-50%, -50%);
     width: 200px;
     height: 60px;
     font-size: 45px;

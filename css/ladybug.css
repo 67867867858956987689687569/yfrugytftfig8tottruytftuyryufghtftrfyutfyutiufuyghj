@@ -13,7 +13,6 @@ body{
 
 #ladybug {
     position:absolute;
-    display: block;
     left:50%;
     top:50%;
     transform: translate(-50%, -50%);
@@ -24,7 +23,6 @@ body{
 
 #guts {
     position:absolute;
-    display: block;
     left:50%;
     top:50%;
     transform: translate(-55%, -40%);

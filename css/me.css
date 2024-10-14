@@ -1,4 +1,5 @@
-@font-face { font-family: Willkids; src: url(../media/font/Willkids.ttf); } 
+@font-face { font-family: MS Sans Serif; src: url(../media/font/MS\ Sans\ Serif.ttf); } 
+@font-face { font-family: MS Sans Serif Bold; src: url(../media/font/MS\ Sans\ Serif\ Bold.ttf); } 
 @font-face { font-family: HELP; src: url(../media/font/HELP.ttf); } 
 
 @keyframes zoom {
@@ -13,6 +14,7 @@ html {
     background: url(../media/images/bg.jpg);
     background-repeat: repeat;
     animation: animatedBackground 2s linear infinite;
+    font-family: MS Sans Serif;
 }
 
 @keyframes animatedBackground {
@@ -24,18 +26,19 @@ html {
     }
 }
 
-#window {
-    margin: auto;
+#window1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
     height: 800px;
     width: 550px;
     background-color: #ffbad3;
-    border: 7px outset #ff96bc;
+    border: 5px outset #ff96bc;
     padding: 16px
 }
 
 p1 {
     font-size: 29px;
-    font-family: Willkids;
     color: #ffffff
 }
 
@@ -47,14 +50,13 @@ p1 {
 
 p2 {
     font-size: 17px;
-    font-family: Willkids;
     color: #ffffff
 } 
 
 
 #autistic {
-    font-size: 85px;
-    font-family: Willkids;
+    font-family: MS Sans Serif Bold;
+    font-size: 75px;
     background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
     -webkit-background-clip: text;
     background-clip: text;
@@ -78,8 +80,7 @@ p2 {
 }
 
 p3 {
-    font-size: 23px;
-    font-family: Willkids;
+    font-size: 22px;
     color: #ffffff
 }
 
@@ -97,24 +98,28 @@ p4 {
     width: 100%;
     display: table;
     table-layout: fixed;
-
 }
 
 .button {
-    cursor: url(../media/images/cursorclicker.png), none;
+    cursor: url(../media/images/cursorclicker.png) 5 0, none;
     font-size: 23px;
-    font-family: Willkids;
+    font-family: MS Sans Serif;
     color: #ffffff;
-    background-color: rgb(255, 145, 182);
-    border: 3px solid #ff96bc;
-    border-radius: 35px;
+    background-color: rgb(255, 167, 197);
+    border: 4px outset #ff92ba;
     padding: 6px;
-    width: 25%;
+    margin: 5px;
+    width: 23%;
+}
+
+.button:hover {
+    background-color: rgb(248, 159, 189);
+    border: 4px outset #ff89b4;
 }
 
 @-moz-document url-prefix() {
     .button {
-        width: 24.45%;
+        width: 22.75%;
     }
 }
 
@@ -132,6 +137,7 @@ p4 {
     position: fixed;
     bottom:0%;
     cursor: url(../media/images/cursorclicker.png), none;
+    overflow: hidden;
 }
 
 #godwat {
